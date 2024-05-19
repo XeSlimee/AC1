@@ -1,0 +1,137 @@
+local UserInputService = game:GetService("UserInputService")
+
+local rebirthEnabled = false
+
+-- Function to toggle the rebirth script
+local function toggleRebirth()
+    rebirthEnabled = not rebirthEnabled
+    print("Rebirth script " .. (rebirthEnabled and "enabled" or "disabled"))
+end
+
+-- Function to handle key press
+local function onKeyPress(input, gameProcessedEvent)
+    if input.KeyCode == Enum.KeyCode.R then
+        toggleRebirth()
+    end
+end
+
+-- Connect the key press event
+UserInputService.InputBegan:Connect(onKeyPress)
+
+while true do
+    if rebirthEnabled then
+        while true do
+            -- Rebirth
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.9240056276321411, 4.467884540557861, -137.0458984375)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7.617209434509277, 4.467905521392822, -136.75912475585938)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14.946257591247559, 4.4678826332092285, -136.60655212402344)
+            wait(0.3)
+            -- Ascension
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.632503509521484, 4.5678791999816895, -82.95913696289062)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.92195129394531, 4.467879772186279, -76.508056640625)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.90077209472656, 4.467921733856201, -69.495361328125)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.54302978515625, 4.4678874015808105, -62.240020751953125)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.458133697509766, 4.467894554138184, -55.051971435546875)
+            wait(0.3)
+            -- Prestige x1
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.42253875732422, 4.567877769470215, -121.16487121582031)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.65425491333008, 4.467907428741455, -113.30789184570312)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.002071380615234, 4.467886924743652, -106.56155395507812)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.913169860839844, 4.467895030975342, -99.43916320800781)
+            wait(0.3)
+            -- Prestige x2
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.42253875732422, 4.567877769470215, -121.16487121582031)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.65425491333008, 4.467907428741455, -113.30789184570312)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.002071380615234, 4.467886924743652, -106.56155395507812)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.913169860839844, 4.467895030975342, -99.43916320800781)
+            wait(0.3)
+            -- Prestige x3
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.42253875732422, 4.567877769470215, -121.16487121582031)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.65425491333008, 4.467907428741455, -113.30789184570312)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.002071380615234, 4.467886924743652, -106.56155395507812)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.913169860839844, 4.467895030975342, -99.43916320800781)
+            wait(0.3)
+            -- Rebirth
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.9240056276321411, 4.467884540557861, -137.0458984375)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7.617209434509277, 4.467905521392822, -136.75912475585938)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14.946257591247559, 4.4678826332092285, -136.60655212402344)
+            wait(0.3)
+            -- Portal T1 22.847169876098633, 10.582735061645508, -46.586524963378906
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(22.847169876098633, 10.582735061645508, -46.586524963378906)
+            wait(0.3)
+            -- Reincarnation -1389.7431640625, 95.13237762451172, -19.342571258544922
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1389.7431640625, 95.13237762451172, -19.342571258544922)
+            wait(0.3)
+            -- Rebirth
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.9240056276321411, 4.467884540557861, -137.0458984375)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7.617209434509277, 4.467905521392822, -136.75912475585938)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14.946257591247559, 4.4678826332092285, -136.60655212402344)
+            wait(0.3)
+            -- Ascension
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.632503509521484, 4.5678791999816895, -82.95913696289062)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.92195129394531, 4.467879772186279, -76.508056640625)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.90077209472656, 4.467921733856201, -69.495361328125)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.54302978515625, 4.4678874015808105, -62.240020751953125)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.458133697509766, 4.467894554138184, -55.051971435546875)
+            wait(0.3)
+            -- Prestige x1
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.42253875732422, 4.567877769470215, -121.16487121582031)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.65425491333008, 4.467907428741455, -113.30789184570312)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.002071380615234, 4.467886924743652, -106.56155395507812)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.913169860839844, 4.467895030975342, -99.43916320800781)
+            wait(0.3)
+            -- Prestige x2
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.42253875732422, 4.567877769470215, -121.16487121582031)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.65425491333008, 4.467907428741455, -113.30789184570312)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.002071380615234, 4.467886924743652, -106.56155395507812)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.913169860839844, 4.467895030975342, -99.43916320800781)
+            wait(0.3)
+            -- Prestige x3
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.42253875732422, 4.567877769470215, -121.16487121582031)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.65425491333008, 4.467907428741455, -113.30789184570312)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.002071380615234, 4.467886924743652, -106.56155395507812)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.913169860839844, 4.467895030975342, -99.43916320800781)
+            wait(0.3)
+            -- Rebirth
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.9240056276321411, 4.467884540557861, -137.0458984375)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7.617209434509277, 4.467905521392822, -136.75912475585938)
+            wait(0.3)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14.946257591247559, 4.4678826332092285, -136.60655212402344)
+            wait(0.3)
+            end
+    end
+    wait(2)
+end
